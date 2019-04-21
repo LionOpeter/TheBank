@@ -70,7 +70,7 @@ int main() {
 	CPerson cMoshe;
 	CPerson cHertzel;
 
-	cout << "*** " << vPeople.size() << " reach persons + bank ***" << endl;
+	cout << "*** " << vPeople.size() << " rich persons + bank ***" << endl;
 	cout << "People amount:\t2\nPaycheck:\t" << iPaycheck << endl;
 	cout << "Money:\t\t" << cMoshe.iCurrentMoney << "\n\n";
 
