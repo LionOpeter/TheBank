@@ -74,7 +74,7 @@ int main() {
 	cout << "People amount:\t2\nPaycheck:\t" << iPaycheck << endl;
 	cout << "Money:\t\t" << cMoshe.iCurrentMoney << "\n\n";
 
-	cout << "RchPpls"       <<"\t| "<< "Bank(4 Others)"               <<"\t| " <<  "Bank(4 Bank)"        << "\n";
+	cout << "RchPpls"       <<"\t| "<< "Bank(for Others)"               <<"\t| " <<  "Bank(for Bank)"        << "\n";
 	cout << vPeople[0].iCurrentMoney*vPeople.size() <<"\t| "<< cBank.getWealthPersonCash() <<"\t\t| " << cBank.getBankWealth() << "\n";
 
 	Deposit(&cMoshe.iCurrentMoney, 100);
